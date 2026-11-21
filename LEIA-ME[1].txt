@@ -1,0 +1,29 @@
+# Gab Moto — arquivos do site
+
+## Arquivos
+- `index.html`: conteúdo e estrutura do site.
+- `estilo.css`: cores, layout e adaptação para celular.
+- `script.js`: menu mobile, cartões de serviços, janelas de detalhes e interações.
+
+## Publicação no GitHub Pages
+1. Faça uma cópia dos arquivos atuais do repositório, por segurança.
+2. Envie os três arquivos deste pacote para a raiz do repositório.
+3. Substitua os arquivos existentes com os mesmos nomes: `index.html`, `estilo.css` e `script.js`.
+4. Aguarde alguns minutos e atualize o site. Se o celular mostrar a versão antiga, atualize a página ou limpe o cache.
+
+## WhatsApp
+O link configurado é `https://wa.me/5566996008227` (Brasil +55, DDD 66, número 99600-8227).
+
+## Como editar promoções
+No `index.html`, procure por `id="promoTitle"` e `id="promoDescription"`.
+Altere o título e o texto da promoção diretamente ali. O botão leva para o WhatsApp.
+
+## Como colocar suas fotos
+Na seção `id="trabalhos"` do `index.html`, procure os elementos `class="photo-slot"`.
+Quando quiser colocar uma foto, substitua o bloco de espaço reservado por uma imagem, por exemplo:
+`<div class="photo-slot"><img src="fotos/nome-da-foto.jpg" alt="Serviço realizado pela Gab Moto"></div>`
+Envie também a foto para uma pasta `fotos` no repositório.
+As imagens dos cartões de serviços não foram inventadas nem incluídas; os cartões usam ícones e texto.
+
+## Observações
+Os textos descrevem os serviços de forma geral. O que será realizado deve ser confirmado após avaliação do veículo, dos materiais e do serviço contratado.
