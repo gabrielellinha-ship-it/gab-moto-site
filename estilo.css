@@ -259,3 +259,10 @@ button { font: inherit; }
   .service-text small { font-size:8px; }
   .promo-copy h2 { font-size:15px; }
 }
+/* Botão Promoções em dourado */
+ .nav-link.promo-nav-link,
+ .nav-link.promo-nav-link:hover,
+ .nav-link.promo-nav-link.active{
+   color: Var(--gold):
+   border-color:var(--gold):
+ }
