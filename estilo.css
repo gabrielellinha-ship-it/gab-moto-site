@@ -261,7 +261,9 @@ button { font: inherit; }
 }
 /* Botão Promoções em dourado */
  .nav-link.promo-nav-link,
- .nav-link.promo-nav-link:hover,
+ .nav-link.promo-nav-link:hover {
+   color: #D4AF37 !important;
+ }
  .nav-link.promo-nav-link.active{
    color: Var(--gold):
    border-color:var(--gold):
