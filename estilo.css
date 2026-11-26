@@ -49,9 +49,9 @@ button { font: inherit; }
   min-height: 370px; position: relative; overflow: hidden; display: flex; align-items: center;
   padding: 45px 4.6%; isolation: isolate;
   background:
-    radial-gradient(ellipse at 72% 74%, rgba(45, 151, 219, .19), transparent 37%),
-    radial-gradient(ellipse at 77% 46%, rgba(220, 235, 255, .12), transparent 27%),
-    linear-gradient(180deg, #05070b 0%, #080e17 62%, #020407 100%);
+    linear-gradient(rgba(2, 7, 14, .25), rgba(2, 7, 14, .45)),
+    url("Fundo_MotoCarro[1].png")
+  center center / cover no-repeat;
 }
 .hero:before { content:""; position:absolute; inset:0; z-index:-1; opacity:.48; background: linear-gradient(170deg, transparent 55%, rgba(20, 126, 202, .13) 56%, transparent 57%), linear-gradient(180deg, transparent 70%, rgba(130, 188, 226, .13) 71%, transparent 72%); }
 .hero:after { content:""; position:absolute; left:0; right:0; bottom:0; height:2px; background:linear-gradient(90deg, transparent, var(--blue), transparent); box-shadow:0 0 18px var(--blue); }
