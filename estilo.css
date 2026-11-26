@@ -49,9 +49,12 @@ button { font: inherit; }
   min-height: 370px; position: relative; overflow: hidden; display: flex; align-items: center;
   padding: 45px 4.6%; isolation: isolate;
   background:
-    linear-gradient(rgba(2, 7, 14, .25), rgba(2, 7, 14, .45)),
+    linear-gradient(90deg, #05070b 0%, 
+                    rgba(5, 7, 11, .85) 30%,
+                    rgba(5, 7, 11, .08) 65%),
     url("Fundo_MotoCarro[1].png")
-  center center / cover no-repeat;
+  right center / auto 100% no-repeat,
+    #05070b;
 }
 .hero:before { content:""; position:absolute; inset:0; z-index:-1; opacity:.48; background: linear-gradient(170deg, transparent 55%, rgba(20, 126, 202, .13) 56%, transparent 57%), linear-gradient(180deg, transparent 70%, rgba(130, 188, 226, .13) 71%, transparent 72%); }
 .hero:after { content:""; position:absolute; left:0; right:0; bottom:0; height:2px; background:linear-gradient(90deg, transparent, var(--blue), transparent); box-shadow:0 0 18px var(--blue); }
@@ -65,7 +68,7 @@ button { font: inherit; }
 .hero-button { border-radius: 30px; padding: 14px 23px; font-size: 15px; }
 .arrow { font-size: 27px; line-height: 15px; }
 .hero-lights { position: absolute; right: 5%; top: 0; width: 56%; height: 100%; display:flex; justify-content:space-around; align-items:flex-start; opacity:.9; pointer-events:none; }
-.hero-lights i { display:block; width:5px; height:65%; margin-top:4%; background:linear-gradient(#fff, #b9e8ff 60%, #058eea); box-shadow:0 0 9px #fff, 0 0 24px #058eea; }
+.hero-lights i { display:none; width:5px; height:65%; margin-top:4%; background:linear-gradient(#fff, #b9e8ff 60%, #058eea); box-shadow:0 0 9px #fff, 0 0 24px #058eea; }
 .hero-lights i:nth-child(2), .hero-lights i:nth-child(4) { height:48%; margin-top:14%; }
 .hero-lights i:nth-child(3) { height:74%; margin-top:8%; }
 
