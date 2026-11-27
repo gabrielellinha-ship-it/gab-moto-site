@@ -287,14 +287,13 @@ button { font: inherit; }
     background-position: center bottom;
     background-repeat: no-repeat;
     background-color: #05070b;
-  }
-.hero-button {
+.hero-button 
   display: inline-flex;
   width: auto;
   max-width: 100%;
   padding: 14px 20px;
   font-size: 16px;
-}
+
 .hero-button svg {
   width: 22px;
   height: 22px;
